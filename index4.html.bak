@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	
+
+	<meta charset="utf-8" http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>Modern Town - Responsive HTML5 Template</title>
+	<script src="echarts.min.js"></script>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+   	<link rel="stylesheet" href="css/owl.theme.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+
+
+#apDiv1 {
+	position:absolute;
+	width:1078px;
+	height:185px;
+	z-index:1;
+	left: 96px;
+	top: 657px;
+}
+#apDiv2 {
+	position:absolute;
+	width:500px;
+	height:319px;
+	z-index:2;
+	left: 518px;
+	top: 7px;
+}
+#apDiv3 {	position:absolute;
+	width:277px;
+	height:186px;
+	z-index:2;
+	left: 515px;
+	top: 14px;
+}
+
+#p1{
+	 word-break: break-all;
+}
+#cenDiv{
+ margin:0 auto;
+ width:900px;
+ background-color:#D1EEEE;
+}
+
+body{
+background-image: url("C:/Users/Administrator/Desktop/1.jpg");
+}
+
+td{
+background-color:#EEDC82;
+}
+
+</style>
+
+    
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50" >
+
+
+<section id="home" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+				<h3 class="wow fadeInDown" data-wow-delay="0.2s"><p style="font-size:60px">租一辈子？</h3>
+				<p data-wow-delay="0.2s" style="font-size:60px">&nbsp;</p>
+				<p data-wow-delay="0.2s" style="font-size:60px">贷一辈子？</p>
+			</div>
+		  <p style>&nbsp;</p></div>
+	</div>
+</section>
+<div id="apDiv1">
+    <br/>
+    <p style="color:#FFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;广告公司的小刘又加班到了11点，好不容易赶上了模板地铁。在地铁上刷朋友圈，老家的同学又在晒新买的限量版球鞋，回到群租房，躺在狭小的卧室，小刘不免感叹：每个月省吃俭用还是只能租在这个房子里，加薪的速度加几匹快马都赶不上房价，而老家的同龄人早早就过上了有车有房的生活。 </p>
+    <p style="color:#FFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;即将进入而立之年的小刘不免焦虑，既享受大城市自由多彩的生活，不愿意放弃机会灰溜溜的回到老家，可3千多一个月合租到的小房间，又让他在这座繁华忙碌的城市中找不到安全感和归属感。 </p>
+    <p style="color:#FFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;小刘在这个广告公司干了快五年了，今年刚升了创意主管。回想起几点前刚刚大学毕业的自己，对群租或是早起通勤的生活还充满着新鲜感和斗志，以为在三十岁以前一定能在这座城市打拼出属于自己的一篇天地。而逐渐的疲惫，升职加薪始终追不上房价和物价的无力感，让小刘不得不对现实妥协。小刘算了一笔账，以他所在的广州为例，他在五羊邨工作，假设他在番禺买一套二手房，每天的通勤时间大概在45分钟左右，而番禺的平均房价，90㎡大约250万，以他大学毕业时的雄心壮志，他需要怎样才能买到这套房子呢？ </p>
+  <p style="color:#FFF">&nbsp;</p>
+  </div>
+<p>&nbsp;</p>
+
+<section class="navbar navbar-default navbar-fixed-top sticky-navigation" role="navigation">
+<div class="container">
+
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			
+		</div>
+		
+
+	</div>
+</section>
+
+
+<!-- about section
+================================================== -->
+	
+
+
+<section id="counter" class="paralla-section">
+	<div class="container">
+		<div class="row"></div>
+		<div class="row">
+
+			
+				
+				
+    
+				
+            </div>  
+				
+  </div> 
+   
+              
+
+	  </div>
+	</div>
+</section>
+
+<table align="center" style="border-collapse:separate; border-spacing:0px 30px;">
+<tr>
+<td align="center">
+<div class="post-masonry col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.2s" align="center">
+    <div class="blog-wrapper">
+         <!-- ΪECharts׼��һ���߱���С����ߣ���Dom -->
+    <div align="center" id="main2" style="width:450px;height:270px;"></div>
+    <script type="text/javascript" src="echarts.min.js"></script>
+    <script type="text/javascript">
+        // ����׼���õ�dom����ʼ��echartsʵ��
+        var myChart = echarts.init(document.getElementById('main2'));
+
+        // ָ��ͼ��������������
+        var option = {
+            color: ['#3398DB'],
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: { // ������ָʾ���������ᴥ����Ч
+                    type: 'shadow' // Ĭ��Ϊֱ�ߣ���ѡΪ��'line' | 'shadow'
+                }
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            xAxis: [{
+                type: 'category',
+                data: ['白云', '番禺', '海珠', '黄浦', '荔湾', '南沙', '天河', '越秀'],
+                axisTick: {
+                    alignWithLabel: true
+                }
+            }],
+            yAxis: [{
+                type: 'value'
+            }],
+            series: [{
+                name: '直接访问',
+                type: 'bar',
+                barWidth: '60%',
+                data: [3835.00, 3606.88, 5646.67, 3013.72, 4720.00, 2500.00, 5602.38, 5392.86]
+            }]
+        };
+
+
+
+        // ʹ�ø�ָ�����������������ʾͼ��
+        myChart.setOption(option);
+    </script>
+              </div>
+        </div>
+</div>
+</td>
+</tr>
+
+
+<tr>
+<td align="center">
+<div class="post-masonry col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s"  text-align="center">
+    <div class="blog-wrapper">
+        <div id="main" style="width: 450px;height:300px;text-align:center"></div>
+    <script type="text/javascript" src="echarts.min.js"></script>
+    <script type="text/javascript">
+        // ����׼���õ�dom����ʼ��echartsʵ��
+        var myChart = echarts.init(document.getElementById('main'));
+
+        // ָ��ͼ��������������
+
+        var data = [
+            [17028.52, 3172100],
+            [16874.45, 3143400],
+            [12280.33, 12280.33],
+            [8247.19, 1536300],
+            [7705.54, 1435400],
+            [7539.12, 1404400]
+
+        ];
+        var cities = ['东莞', '珠海', '增城', '佛山', '中山', '从化'];
+        var barHeight = 50;
+
+        option = {
+			color: ['#3398DB'],
+            title: {
+                text: '广州周边地区买房每月还贷',
+            },
+            legend: {
+                show: true,
+                data: ['价格范围', '均值']
+            },
+            grid: {
+                top: 100
+            },
+            angleAxis: {
+                type: 'category',
+                data: cities
+            },
+            tooltip: {
+                show: true,
+                formatter: function(params) {
+                    var id = params.dataIndex;
+                    return cities[id] + '<br>每月还贷：' + data[id][0] + '<br>平均房屋价格：' + data[id][1];
+                }
+            },
+            radiusAxis: {},
+            polar: {},
+            series: [{
+                type: 'bar',
+                itemStyle: {
+                    normal: {
+                        color: 'transparent'
+                    }
+                },
+                data: data.map(function(d) {
+                    return d[0];
+                }),
+                coordinateSystem: 'polar',
+                stack: '最大最小值',
+                silent: true
+            }, {
+                type: 'bar',
+                data: data.map(function(d) {
+                    return d[1] - d[0];
+                }),
+                coordinateSystem: 'polar',
+                name: '价格范围',
+                stack: '最大最小值'
+            }, {
+                type: 'bar',
+                itemStyle: {
+                    normal: {
+                        color: 'transparent'
+                    }
+                },
+                data: data.map(function(d) {
+                    return d[2] - barHeight;
+                }),
+                coordinateSystem: 'polar',
+                stack: '均值',
+                silent: true,
+                z: 10
+            }, {
+                type: 'bar',
+                data: data.map(function(d) {
+                    return barHeight * 2
+                }),
+                coordinateSystem: 'polar',
+                name: '均值',
+                stack: '均值',
+                barGap: '-100%',
+                z: 10
+            }],
+            legend: {
+                show: true,
+                data: ['A', 'B', 'C']
+            }
+        };
+
+
+        // ʹ�ø�ָ�����������������ʾͼ��
+        myChart.setOption(option);
+    </script>
+        </div>
+</div>
+</td>
+</tr>
+
+</table>
+
+<div id="cenDiv"> <div>
+    <h4 style="text-align: center">(一)</h4>
+    <h3 style="text-align: center">广州</h3></div>
+  
+ <p id="p1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一日三餐30元，基础交通10元，住在城中村至少也是1000每月，再加上生活用品，基本的电话费网费，他的最低消费是3500每月，前提是不能生病。如果要在三十岁之前交上首付，也就是250万*0.3，75万，24岁毕业，6年时间，平均每年要存12.5万，每月1.04万。加上生活费，至少收入要达到13500左右每月。而现实是，小刘刚毕业时每月工资七千不到，即使是现在也只能勉强达到这个标准。而剩下的175万，加上贷款利率，还30年，每月需要还11000…..</p>
+
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;某次小刘去佛山出差，收到一张房地产的传单，突然萌生了一个想法，佛山离他上班的地方一个多小时的车程，而房价就比广州便宜了很多，如果在佛山买一套房是不是可行的呢……</p>
+
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以珠江新城为中心，向周围辐射1h左右的通勤距离，市中心租房价格普遍在三到六千。广州边缘地区从化和增城、珠三角城市群，作为买房备选，价格100-300万左右，相比市中心，低一两百万，但是要付出1.5h以上的通勤时间。</p>
+
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有广州深圳两座一线城市作为支撑，随着粤港澳交通线的逐渐完善，整个珠三角地区完全打通，佛山、珠海、中山等城市也成为居住和投资的热门，价格的逐渐上涨也是必然的，但相对仍是不错的选择。</p>
+</div>
+
+
+<!-- Testimonial section
+================================================== -->
+<section class="navbar navbar-default navbar-fixed-top sticky-navigation" role="navigation">
+	<div class="container">
+
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">Modern Town</a>
+		</div>
+		
+
+	</div>
+</section>
+
+<table align="center" style="border-collapse:separate; border-spacing:0px 30px;">
+<tr>
+<td align="center">
+<div class="col-md-6 col-sm-12">
+    <!-- ?ECharts???????????��????????Dom -->
+        <div id="main1" style="width: 500px;height:333px;"></div>
+        <script type="text/javascript" src="echarts.min.js"></script>
+        <script type="text/javascript">
+            // ??????????dom???????echarts???
+            var myChart = echarts.init(document.getElementById('main1'));
+    
+            // ??????????????????
+            var option = {
+                color: ['#3398DB'],
+                tooltip: {
+                    trigger: 'axis',
+                    axisPointer: { // ??????????????????????��
+                        type: 'shadow' // ??????????????'line' | 'shadow'
+                    }
+                },
+                grid: {
+                    left: '3%',
+                    right: '4%',
+                    bottom: '3%',
+                    containLabel: true
+                },
+                xAxis: [{
+                type: 'category',
+                data: ['宝安区', '福田区', '光明新区', '龙岗区', '龙华区', '罗湖区', '南山区', '坪山区', '盐田区'],
+                axisTick: {
+                    alignWithLabel: true
+                }
+                }],
+                yAxis: [{
+                    type: 'value'
+                }],
+                series: [{
+                name: '直接访问',
+                type: 'bar',
+                barWidth: '60%',
+                data: [7241.33, 10307.45, 4000.00, 4618.70, 6364.18, 8015.00, 11293.13, 2600.00, 5233.33]
+            }]
+        };
+    
+    
+    
+            // ??????????????????????????
+            myChart.setOption(option);
+        </script>
+            </div>
+</td>
+<tr>
+</table>
+
+<div id="cenDiv">
+ <div class="about-des">
+  <h4 style="text-align: center">(二)</h4>
+  <h3 style="text-align: center">深圳</h3></div>
+  <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;同为广东省一线城市，深圳连续三年蝉联最年轻的一线城市，深夜里灯火通明的腾讯大楼代表着无数年轻人所向往的“梦想之城”。与广州不同的是，深圳大部分是外来人口，上涨空间大，速度也在四座一线城市中最快。以深圳福田区CBD为中心，一小时以内的通勤距离包括深圳管辖的9个区，南山和福田90平的房月租都超过10000。</p>
+</div>
+
+<table align="center" style="border-collapse:separate; border-spacing:0px 30px;">
+<tr>
+<td align="center">
+<div>
+<div id="main3" style="width: 500px;height:333px;"></div>
+        <script type="text/javascript" src="echarts.min.js"></script>
+        <script type="text/javascript">
+            // ??????????dom???????echarts???
+            var myChart = echarts.init(document.getElementById('main3'));
+    
+            // ??????????????????
+            var data = [
+                [11390.82, 2121900],
+                [9943.01, 1852200],
+                [7720.57, 1438200]
+    
+            ];
+            var cities = ['东莞', '珠海', '中山'];
+        var barHeight = 50;
+    
+        option = {
+			color: ['#3398DB'],
+            title: {
+                text: '深圳周边地区买房每月还贷',
+              
+            },
+            legend: {
+                show: true,
+                data: ['价格范围', '均值']
+            },
+                grid: {
+                    top: 100
+                },
+                angleAxis: {
+                    type: 'category',
+                    data: cities
+                },
+                tooltip: {
+                show: true,
+                formatter: function(params) {
+                    var id = params.dataIndex;
+                    return cities[id] + '<br>每月还贷：' + data[id][0] + '<br>平均房屋价格：' + data[id][1];
+                }
+            },
+                radiusAxis: {},
+                polar: {},
+                series: [{
+                    type: 'bar',
+                    itemStyle: {
+                        normal: {
+                            color: 'transparent'
+                        }
+                    },
+                    data: data.map(function(d) {
+                        return d[0];
+                    }),
+                    coordinateSystem: 'polar',
+                    stack: '最大最小值',
+                    silent: true
+                }, {
+                    type: 'bar',
+                    data: data.map(function(d) {
+                        return d[1] - d[0];
+                    }),
+                    coordinateSystem: 'polar',
+                    name: '价格范围',
+                stack: '最大最小值'
+                }, {
+                    type: 'bar',
+                    itemStyle: {
+                        normal: {
+                            color: 'transparent'
+                        }
+                    },
+                    data: data.map(function(d) {
+                        return d[2] - barHeight;
+                    }),
+                    coordinateSystem: 'polar',
+                    stack: '均值',
+                    silent: true,
+                    z: 10
+                }, {
+                    type: 'bar',
+                    data: data.map(function(d) {
+                        return barHeight * 2
+                    }),
+                    coordinateSystem: 'polar',
+                    name: '均值',
+                stack: '均值',
+                    barGap: '-100%',
+                    z: 10
+                }],
+                legend: {
+                    show: true,
+                    data: ['A', 'B', 'C']
+                }
+            };
+    
+    
+    
+            // ??????????????????????????
+            myChart.setOption(option);
+        </script>
+</div>
+</td>
+<tr>
+</table>
+
+<div id="cenDiv">
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;同样珠三角城市群可作为备选买房方案，东莞、中山、珠海三座城市都在2h的公交通勤之内。有广州深圳两座一线城市作为支撑，随着粤港澳交通线的逐渐完善，整个珠三角地区完全打通，佛山、珠海、中山等城市也成为居住和投资的热门，价格的逐渐上涨也是必然的，但相对仍是不错的选择。</p>
+</div>
+
+
+<section id="testimonial" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<!-- Service Owl Carousel section
+			================================================== -->
+			<div id="owl-testimonial" class="owl-carousel">
+
+				<div class="item">
+					<div class="row">
+						<div class="col-md-offset-2 col-md-8">
+							<img src="images/testimonial-img-1.jpg" class="img-responsive img-circle" alt="testimonial img">
+							
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="row">
+						<div class="col-md-offset-2 col-md-8">
+							<img src="images/testimonial-img-2.jpg" class="img-responsive img-circle" alt="testimonial img">
+							</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="row">
+						<div class="col-md-offset-2 col-md-8">
+							<img src="images/testimonial-img-3.jpg" class="img-responsive img-circle" alt="testimonial img">
+							</div>
+					</div>
+				</div>
+				
+			</div>
+
+
+		</div>
+	</div>
+</section>
+
+<section class="navbar navbar-default navbar-fixed-top sticky-navigation" role="navigation">
+	<div class="container">
+
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			
+		</div>
+		
+
+	</div>
+</section>
+
+
+<table align="center" style="border-collapse:separate; border-spacing:0px 30px;">
+<tr>
+<td align="center">
+<div>
+<div id="main4" style="width: 500px;height:333px;"></div>
+    <script type="text/javascript" src="echarts.min.js"></script>
+    <script type="text/javascript">
+        // ??????????dom???????echarts???
+        var myChart = echarts.init(document.getElementById('main4'));
+
+        // ??????????????????
+        var option = {
+            color: ['#3398DB'],
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: { // ??????????????????????��
+                    type: 'shadow' // ??????????????'line' | 'shadow'
+                }
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            xAxis: [{
+                type: 'category',
+                data: ['朝阳', '大兴', '东城', '丰台', '海淀', '石景山', '西城'],
+                axisTick: {
+                    alignWithLabel: true
+                }
+            }],
+            yAxis: [{
+                type: 'value'
+            }],
+            series: [{
+                name: '直接访问',
+                type: 'bar',
+                barWidth: '60%',
+                data: [9308.25, 4836.84, 11608.33, 6332.04, 9289.13, 7100.00, 13329.27]
+            }]
+        };
+
+
+
+        // ??????????????????????????
+        myChart.setOption(option);
+    </script> 
+</div>
+</td>
+<tr>
+</table>
+
+<div id="cenDiv">
+ <h4 style="text-align: center">（三）</h4>
+ <h3 style="text-align: center">北京</h3>
+<p style="font-size:16px;text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;东方财富Choice数据显示，2017年中国家庭的收入支出中，房贷比例高达67%，而千万像小刘一样的年轻人，在大城市打拼，拿着一份还算体面的工资，却连还房贷的资格都还暂时没有。而广东的房价在四个一线城市中还算相对“温和”。</p>
+</div>
+
+<table align="center" style="border-collapse:separate; border-spacing:0px 30px;">
+<tr>
+<td align="center">
+<div>
+<div id="main5" style="width: 500px;height:333px;"></div>
+    <script type="text/javascript" src="echarts.min.js"></script>
+    <script type="text/javascript">
+        // ??????????dom???????echarts???
+        var myChart = echarts.init(document.getElementById('main5'));
+
+        // ??????????????????
+
+        var data = [
+            [29089.83, 5418900],
+            [24964.35, 4650400],
+            [9233.33, 1720000],
+            [5596.90, 1482600],
+            [7730.23, 1440000],
+            [7332.45, 1365900],
+            [7153.76, 1332800],
+            [7134.36, 1329000],
+            [4947.348, 921600],
+            [4559.763, 849400],
+            [3261.19, 607500]
+
+        ];
+        var cities = ['昌平', '房山', '旅居', '沧州', '顺义', '廊坊', '涿州', '大厂', '唐山', '固安', '香河'];
+        var barHeight = 50;
+
+        option = {
+			color: ['#3398DB'],
+            title: {
+                text: '北京周边地区买房每月还贷',
+               
+            },
+            legend: {
+                show: true,
+                data: ['价格范围', '均值']
+            },
+            grid: {
+                top: 100
+            },
+            angleAxis: {
+                type: 'category',
+                data: cities
+            },
+            tooltip: {
+                show: true,
+                formatter: function(params) {
+                    var id = params.dataIndex;
+                    return cities[id] + '<br>每月还贷：' + data[id][0] + '<br>平均房屋价格：' + data[id][1];
+                }
+            },
+            radiusAxis: {},
+            polar: {},
+            series: [{
+                type: 'bar',
+                itemStyle: {
+                    normal: {
+                        color: 'transparent'
+                    }
+                },
+                data: data.map(function(d) {
+                    return d[0];
+                }),
+                coordinateSystem: 'polar',
+                stack: '最大最小值',
+                silent: true
+            }, {
+                type: 'bar',
+                data: data.map(function(d) {
+                    return d[1] - d[0];
+                }),
+                coordinateSystem: 'polar',
+                name: '价格范围',
+                stack: '最大最小值'
+            }, {
+                type: 'bar',
+                itemStyle: {
+                    normal: {
+                        color: 'transparent'
+                    }
+                },
+                data: data.map(function(d) {
+                    return d[2] - barHeight;
+                }),
+                coordinateSystem: 'polar',
+                stack: '均值',
+                silent: true,
+                z: 10
+            }, {
+                type: 'bar',
+                data: data.map(function(d) {
+                    return barHeight * 2
+                }),
+                coordinateSystem: 'polar',
+                name: '均值',
+                stack: '均值',
+                barGap: '-100%',
+                z: 10
+            }],
+            legend: {
+                show: true,
+                data: ['A', 'B', 'C']
+            }
+        };
+
+
+
+        // ??????????????????????????
+        myChart.setOption(option);
+    </script>
+</div>
+</td>
+<tr>
+</table>
+
+<div id="cenDiv">
+ <p style="text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28岁的小陈在北京一家影视公司工作，在北京工作了快十年，两部手机一台电脑随时保持有电，至今还在通州和人合租。小陈说他已经被生活压得没有别的想法了，只想拼命赚钱。以北京朝阳区CBD为中心，1.5h通勤时间，筛选出了7个区的房租价格，都超过了5000。相比于市内600多万的买房价格，河北市的房价显得亲民了许多，基本在一两百万，但需要付出两个多小时的通勤时间。有趣的是，隶属北京北京管辖的昌平和房山，已经在五环以外，房价却依然是“北京特色”。</p>
+</div>
+
+
+<table align="center" style="border-collapse:separate; border-spacing:0px 30px;">
+<tr>
+<td align="center">
+<div>
+<div id="main6" style="width: 500px;height:333px;"></div>
+    <script type="text/javascript" src="echarts.min.js"></script>
+    <script type="text/javascript">
+        // ??????????dom???????echarts???
+        var myChart = echarts.init(document.getElementById('main6'));
+
+        // ??????????????????
+        var option = {
+            
+            color: ['#3398DB'],
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: { // ??????????????????????��
+                    type: 'shadow' // ??????????????'line' | 'shadow'
+                }
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            xAxis: [{
+                type: 'category',
+                data: ['宝山', '虹口', '黄浦', '静安', '闵行', '浦东', '青浦', '松江', '徐汇', '杨浦', '长宁'],
+                axisTick: {
+                    alignWithLabel: true,
+                    textStyle: {
+                        color: '#FFFFFF'
+                    }
+                }
+            }],
+            yAxis: [{
+                type: 'value',
+                textStyle: {
+                    color: '#FFFFFF'
+                }
+            }],
+            series: [{
+                name: '直接访问',
+                type: 'bar',
+                barWidth: '60%',
+                data: [6257.54, 10917.14, 19080.13, 16212.16, 12062.96, 12378.35, 12809.03, 5678.11, 14024.91, 8057.75, 18395.64]
+            }]
+        };
+
+
+
+        // ??????????????????????????
+        myChart.setOption(option);
+    </script>
+</div>
+</td>
+<tr>
+</table>
+
+
+<table align="center" style="border-collapse:separate; border-spacing:0px 30px;">
+<tr>
+<td align="center">
+<div>
+<div id="main500" style="width: 600px;height:400px;"></div>
+  <script type="text/javascript" src="echarts.min.js"></script>
+        <script type="text/javascript">
+                        // 基于准备好的dom，初始化echarts实例
+                        var myChart = echarts.init(document.getElementById('main500'));
+                
+                        // 指定图表的配置项和数据
+                
+                        var data = [
+                            [11866.98, 2210600],
+                            [8508.62, 1585000],
+                            [6689.87, 1246200],
+                            [5337.62, 994300],
+                            [5337.62, 994300]
+                
+                        ];
+                        var cities = ['嘉定', '昆山', '奉贤', '常熟', '苏州'];
+                        var barHeight = 50;
+                
+                        option = {
+                            color: ['#3398DB'],
+                            title: {
+                                color: '#458b00',
+                                text: '上海周边地区买房每月还贷',
+                               
+                            },
+                            legend: {
+                                show: true,
+                                data: ['价格范围', '均值']
+                            },
+                            grid: {
+                                top: 100
+                            },
+                            angleAxis: {
+                                type: 'category',
+                                data: cities
+                            },
+                            tooltip: {
+                                show: true,
+                                formatter: function(params) {
+                                    var id = params.dataIndex;
+                
+                                    return cities[id] + '<br>每月还贷：' + data[id][0] + '<br>平均房屋价格：' + data[id][1];
+                                }
+                            },
+                            radiusAxis: {},
+                            polar: {},
+                            series: [{
+                                type: 'bar',
+                                itemStyle: {
+                                    normal: {
+                                        color: 'transparent'
+                                    }
+                                },
+                                data: data.map(function(d) {
+                                    return d[0];
+                                }),
+                                coordinateSystem: 'polar',
+                                stack: '最大最小值',
+                                silent: true
+                            }, {
+                                type: 'bar',
+                                data: data.map(function(d) {
+                                    return d[1] - d[0];
+                                }),
+                                coordinateSystem: 'polar',
+                                name: '价格范围',
+                                stack: '最大最小值'
+                            }, {
+                                type: 'bar',
+                                itemStyle: {
+                                    normal: {
+                                        color: 'transparent'
+                                    }
+                                },
+                                data: data.map(function(d) {
+                                    return d[2] - barHeight;
+                                }),
+                                coordinateSystem: 'polar',
+                                stack: '均值',
+                                silent: true,
+                                z: 10
+                            }, {
+                                type: 'bar',
+                                data: data.map(function(d) {
+                                    return barHeight * 2
+                                }),
+                                coordinateSystem: 'polar',
+                                name: '均值',
+                                stack: '均值',
+                                barGap: '-100%',
+                                z: 10
+                            }],
+                            legend: {
+                                show: true,
+                                data: ['A', 'B', 'C']
+                            }
+                        };
+                
+                        // 使用刚指定的配置项和数据显示图表。
+                        myChart.setOption(option);
+                    </script>	
+</div>
+</td>
+<tr>
+</table>
+
+<div id="cenDiv">
+<p style="text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上海持续领跑中国的GDP，金融中心的房价比起首都也毫不逊色，，以徐家汇和陆家嘴为中心，上海市内辐射1.5h的通勤距离，市内房租的平均价格比起北京还高出许多，三分之二的地区都超过了1万，租房压力是四个城市中最大的。周边2.5小时以内的地区也在100-200万，但随着杭州的崛起，杭州房价十分惊人，长三角城市群南京、苏州等经济都在全国前列，房价压力也不小，周边的小市县尚是不错的选择，而未来上升空间巨大。</p>
+</div>
+
+
+<table align="center" style="border-collapse:separate; border-spacing:0px 30px;">
+<tr>
+<td align="center">
+<div>
+ <div id="main8" style="width: 400px;height:350px;"></div>
+    <script type="text/javascript" src="echarts.min.js"></script>
+    <script type="text/javascript">
+        // ??????????dom???????echarts???
+        var myChart = echarts.init(document.getElementById('main8'));
+
+        // ??????????????????
+        var labelRight = {
+            normal: {
+                position: 'right'
+            }
+        };
+        var option = {
+			color: ['#3398DB'],
+            title: {
+                text: '北京中心地区租金与周边地区买房还贷对照',
+            
+       
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: { // ??????????????????????��
+                    type: 'shadow' // ??????????????'line' | 'shadow'
+                }
+            },
+            grid: {
+                top: 80,
+                bottom: 30
+            },
+            xAxis: [{
+                type: 'value',
+                axisLabel: {
+                    formatter: function(data) {
+                        return (Math.abs(data));
+                    }
+                }
+            }],
+            yAxis: {
+                type: 'category',
+                axisLine: {
+                    show: false
+                },
+                axisLabel: {
+                    show: false
+                },
+                axisTick: {
+                    show: false
+                },
+                splitLine: {
+                    show: false
+                },
+                data: ['涿州', '朝阳', '唐山', '沧州', '大兴', '旅居', '昌平', '东城', '大厂', '顺义', '丰台', '房山', '海淀', '固安', '石景山', '廊坊', '西城', '香河']
+            },
+            series: [{
+                name: '每月消费（元/月）',
+                type: 'bar',
+                stack: '总量',
+                label: {
+                    normal: {
+                        show: true,
+                        formatter: '{b}'
+                    }
+                },
+                data: [
+                    8265.43, {
+                        value: -9308.25,
+                        label: labelRight
+                    },
+                    6465.74, 5715.35, {
+                        value: -4836.84,
+                        label: labelRight
+                    },
+                    10666.67, 33605.58, {
+                        value: -11608.33,
+                        label: labelRight
+                    },
+                    8241.86, 8930.23, {
+                        value: -6332.04,
+                        label: labelRight
+                    },
+                    25352.02, {
+                        value: -9289.13,
+                        label: labelRight
+                    },
+                    5267.60, {
+                        value: -7100.00,
+                        label: labelRight
+                    },
+                    8470.70, {
+                        value: -13329.27,
+                        label: labelRight
+                    },
+                    3767.44
+
+
+                ]
+            }]
+        };
+
+
+        // ??????????????????????????
+        myChart.setOption(option);
+    </script> 
+</div>
+</td>
+<td align="center">
+<div>
+<div id="main9" style="width: 400px;height:350px;"></div>
+                        <script type="text/javascript" src="echarts.min.js"></script>
+                        <script type="text/javascript">
+                            // ??????????dom???????echarts???
+                            var myChart = echarts.init(document.getElementById('main9'));
+                    
+                            // ??????????????????
+                            var labelRight = {
+                                normal: {
+                                    position: 'right'
+                                }
+                            };
+                            var option = {
+								color: ['#3398DB'],
+                                title: {
+                                    text: '广州中心地区租金与周边地区买房还贷对照',
+                                
+                                },
+                                tooltip: {
+                                    trigger: 'axis',
+                                    axisPointer: { // ??????????????????????��
+                                        type: 'shadow' // ??????????????'line' | 'shadow'
+                                    }
+                                },
+                                grid: {
+                                    top: 80,
+                                    bottom: 30
+                                },
+                                xAxis: [{
+                                    type: 'value',
+                                    axisLabel: {
+                                        formatter: function(data) {
+                                            return (Math.abs(data));
+                                        }
+                                    }
+                                }],
+                                yAxis: {
+                                    type: 'category',
+                                    axisLine: {
+                                        show: false
+                                    },
+                                    axisLabel: {
+                                        show: false
+                                    },
+                                    axisTick: {
+                                        show: false
+                                    },
+                                    splitLine: {
+                                        show: false
+                                    },
+                                    data: ['白云', '番禺', '从化', '海珠', '东莞', '黄浦', '佛山', '荔湾', '增城', '南沙', '中山', '天河', '珠海', '越秀']
+            },
+                                series: [{
+                                    name: '每月消费（元/月）',
+                type: 'bar',
+                stack: '总量',
+                                    label: {
+                                        normal: {
+                                            show: true,
+                                            formatter: '{b}'
+                                        }
+                                    },
+                                    data: [{
+                                            value: -3835.00,
+                                            label: labelRight
+                                        }, {
+                                            value: -3606.88,
+                                            label: labelRight
+                                        },
+                                        8709.46, {
+                                            value: -5646.67,
+                                            label: labelRight
+                                        },
+                                        19671.94, {
+                                            value: -3013.72,
+                                            label: labelRight
+                                        },
+                                        9527.44, {
+                                            value: -4742.00,
+                                            label: labelRight
+                                        },
+                                        14186.66, {
+                                            value: -2500.00,
+                                            label: labelRight
+                                        },
+                                        8901.70, {
+                                            value: -5602.38,
+                                            label: labelRight
+                                        },
+                                        19493.95, {
+                                            value: -5392.86,
+                                            label: labelRight
+                                        }
+                    
+                    
+                                    ]
+                                }]
+                            };
+                    
+                    
+                            // ??????????????????????????
+                            myChart.setOption(option);
+                        </script>
+</div>
+</td>
+<tr>
+
+<td align="center">
+<div>
+<div id="main10" style="width: 400px;height:350px;text-align: center;"></div>
+    <script type="text/javascript" src="echarts.min.js"></script>
+    <script type="text/javascript">
+        // ??????????dom???????echarts???
+        var myChart = echarts.init(document.getElementById('main10'));
+
+        // ??????????????????
+        var labelRight = {
+            normal: {
+                position: 'right'
+            }
+        };
+        var option = {
+			color: ['#3398DB'],
+        
+            title: {
+                text: '上海中心地区租金与周边地区买房还贷对照',
+               
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: { // ??????????????????????��
+                    type: 'shadow' // ??????????????'line' | 'shadow'
+                }
+            },
+            grid: {
+                top: 80,
+                bottom: 30
+            },
+            xAxis: [{
+                type: 'value',
+                axisLabel: {
+                    formatter: function(data) {
+                        return (Math.abs(data));
+                    }
+                }
+            }],
+            yAxis: {
+                type: 'category',
+                axisLine: {
+                    show: false
+                },
+                axisLabel: {
+                    show: false
+                },
+                axisTick: {
+                    show: false
+                },
+                splitLine: {
+                    show: false
+                },
+                data: ['常熟', '宝山', '虹口', '奉贤', '黄浦', '静安', '嘉定', '闵行', '浦东', '昆山', '青浦', '松江', '徐汇', '苏州', '杨浦', '长宁']
+            },
+            series: [{
+                name: '每月消费（元/月）',
+                type: 'bar',
+                stack: '总量',
+                label: {
+                    normal: {
+                        show: true,
+                        formatter: '{b}'
+                    }
+                },
+                data: [
+                    6166.20, {
+                        value: -6257.54,
+                        label: labelRight
+                    }, {
+                        value: -10917.14,
+                        label: labelRight
+                    },
+
+                    7728.37, {
+                        value: -19080.13,
+                        label: labelRight
+                    }, {
+                        value: -16212.16,
+                        label: labelRight
+                    },
+                    13709.15, {
+                        value: -12062.96,
+                        label: labelRight
+                    }, {
+                        value: -12378.35,
+                        label: labelRight
+                    },
+                    8640.71, {
+                        value: -12809.03,
+                        label: labelRight
+                    }, {
+                        value: -5678.11,
+                        label: labelRight
+                    }, {
+                        value: -14024.91,
+                        label: labelRight
+                    },
+                    6166.20, {
+                        value: -8057.75,
+                        label: labelRight
+                    }, {
+                        value: -18395.64,
+                        label: labelRight
+
+                    }
+
+
+
+                ]
+            }]
+        };
+
+
+        // ??????????????????????????
+        myChart.setOption(option);
+    </script>
+</div>
+</td>
+<td align="center">
+<div>
+<div id="main11" style="width: 400px;height:350px;text-align: center;"></div>
+                        <script type="text/javascript" src="echarts.min.js"></script>
+                        <script type="text/javascript">
+                            // ??????????dom???????echarts???
+                            var myChart = echarts.init(document.getElementById('main11'));
+                    
+                            // ??????????????????
+                            var labelRight = {
+                                normal: {
+                                    position: 'right'
+                                }
+                            };
+                            var option = {
+								color: ['#3398DB'],
+                                title: {
+                                    text: '深圳中心地区租金与周边地区买房还贷对照',
+                                  
+                                },
+                                tooltip: {
+                                    trigger: 'axis',
+                                    axisPointer: { // ??????????????????????��
+                                        type: 'shadow' // ??????????????'line' | 'shadow'
+                                    }
+                                },
+                                grid: {
+                                    top: 80,
+                                    bottom: 30
+                                },
+                                xAxis: [{
+                                    type: 'value',
+                                    axisLabel: {
+                                        formatter: function(data) {
+                                            return (Math.abs(data));
+                                        }
+                                    }
+                                }],
+                                yAxis: {
+                                    type: 'category',
+                                    axisLine: {
+                                        show: false
+                                    },
+                                    axisLabel: {
+                                        show: false
+                                    },
+                                    axisTick: {
+                                        show: false
+                                    },
+                                    splitLine: {
+                                        show: false
+                                    },
+                                    data: ['东莞', '宝安区', '福田区', '光明新区', '中山', '龙岗区', '龙华区', '罗湖区', '珠海', '南山区', '坪山区,', '盐田区']
+            },
+                                series: [{
+                                    name: '每月消费（元/月）',
+                type: 'bar',
+                stack: '总量',
+                                    label: {
+                                        normal: {
+                                            show: true,
+                                            formatter: '{b}'
+                                        }
+                                    },
+                                    data: [
+                                        13159.07, {
+                                            value: -7241.33,
+                                            label: labelRight
+                                        }, {
+                                            value: -10307.45,
+                                            label: labelRight
+                                        }, {
+                                            value: -4000.00,
+                                            label: labelRight
+                                        },
+                                        8919.07, {
+                                            value: -4618.70,
+                                            label: labelRight
+                                        }, {
+                                            value: -6364.18,
+                                            label: labelRight
+                                        }, {
+                                            value: -8015.00,
+                                            label: labelRight
+                                        },
+                                        11486.51, {
+                                            value: -11293.13,
+                                            label: labelRight
+                                        }, {
+                                            value: -2600.00,
+                                            label: labelRight
+                                        }, {
+                                            value: -5233.33,
+                                            label: labelRight
+                                        }
+                    
+                    
+                    
+                                    ]
+                                }]
+                            };
+                    
+                    
+                            // ??????????????????????????
+                            myChart.setOption(option);
+                        </script>
+</div>
+</td>
+<tr>
+</table>
+
+<div id="cenDiv">
+<p style="text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;去年一份《中国新锐中产调研报告》讲，城市中10万-50万年薪的人群划分为“新锐中产”，在这个人群中85后占到了52%。他们生于八十年代末九十年代初，接受过高等教育，离开校园不久，身居一线城市，有一份月收入为一万左右的工作。媒体对这群优质“新中产”不乏溢美，然而“脱发”“保温杯”这些词汇频繁出现在朋友圈也反映了这个群体的严重焦虑。欲望都市的吸引力，财富却不给力，纵使是新中产也难以承担买房租房的压力。在职场忙碌了一天的人，一个个神色凝重被地铁拉回住处，草草的吃饭睡觉刷手机，第二天盛满疲惫的人们在一起往市里挤，而到了周末，换一支口红又是深夜里神色飘逸的小妞，尽情的享受这座城市的繁华与活力。对于每一个彷徨着的年轻人，生活在北上广深，要承担多少压力，能体会激情，既是拉扯，又是唯有身处者才有的体会。</p>
+</div>
+  
+
+
+<footer>
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+			<img src="./images/er.png">
+        <div style="align:center">扫一扫，查看你的买租选择</div>
+    
+               
+			</div>
+			<div class="link-list col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="0.6s">
+				<h2>小组成员</h2>
+				<a href="#">闫荣美</a>
+                <a href="#">张瑾</a>
+				<a href="#">张磊</a>
+				<a href="#">旦增罗布</a>
+			</div>
+			<div class="link-list col-md-2 col-sm-2 wow fadeInUp" data-wow-delay="0.6s">
+				<h2>工作</h2>
+				<a href="#">H5,数据清洗</a>
+				<a href="#">网页，文案</a>
+				<a href="#">网页，数据可视化</a>
+				<a href="#">数据收集</a>
+			</div>
+			
+
+<div class="col-md-12 col-sm-12">
+		<div class="copyright-text wow bounceIn">
+			
+		</div>
+	</div>
+
+</footer>
+
+
+
+
+
+
+
+<!-- Javascript 
+================================================== -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/isotope.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/counter.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+
+</html>
+
+
